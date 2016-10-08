@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/toast_layout_root"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="8dp">
+        
+    <ImageView android:src="@drawable/check_mark_2"
+              android:layout_width="320dp"
+        	  android:layout_height="200dp"
+        	  android:rotation="270"
+              android:layout_marginRight="8dp"
+               />
+
+</LinearLayout>
