@@ -49,7 +49,7 @@ public class QrMainActivity extends Activity implements OnClickListener {
 		inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
 
 		if (v.getId() == R.id.signin_button) {
-			if (userName.getText().toString().equals("admin") && password.getText().toString().equals("password")) {
+			if (userName.getText().toString().equals("") && password.getText().toString().equals("")) {
 				Intent callAdmin = new Intent(QrMainActivity.this, AdminActivity.class);
 				infoToast(loginPass);
 				startActivity(callAdmin);
